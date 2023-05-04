@@ -83,8 +83,3 @@ class GetData:
 
         with open(constants.CSV_FILE_NAME, constants.WRITE) as csv:
             dataframe.to_csv(constants.CSV_FILE_NAME, index=False)
-
-
-if __name__ == "__main__":
-    hey = GetData()
-    hey.to_csv()
